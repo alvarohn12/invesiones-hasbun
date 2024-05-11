@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200&family=Work+Sans:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+:root{
+    --colorprimario:#ff0000;
+    --colorsecundario:#FFFFFF;
+    --colorteciario:#D9d9d9;
+    --colorcuarternario:#2C3E50;
+    --colorquinto:#6DBCDB;
+    --coloraltenativo:#000;
+    --fuenteprincipal:'Young Serif', serif;
+    --fuentesecundario:'poppins', sans-serif;
+}
+body{
+    background-image: linear-gradient(to right, #ff0000,#db7777,#ff0000);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 50px;
+}
+
+.cuerpo{
+    background-color: rgba(255, 255, 255, 0.411);
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    border: 2px solid rgba(255,255, 255, 0.4);
+    height:500px;
+    width: 70%;
+}
+h5{
+    text-transform: uppercase;
+    font-family: var(--fuenteprincipal);
+    font-size: 25px;
+}
+
+.correo{
+    margin-bottom: 40px;
+    height: 25px;
+    width: 250px;
+    border-radius: 8px;
+}
+.contraseña{
+    margin-bottom: 40px;
+    height: 25px;
+    width: 250px;
+    border-radius: 8px;
+}
+.ingresar{
+    cursor: pointer;
+    margin-bottom: 30px;
+    height: 35px;
+    width: 200px;
+    border-radius: 8px;
+    border-style: none;
+    background-color: var(--colorquinto);
+    color: var(--colorsecundario);
+}
+.ingresar:hover{
+    color: #d9d9d9;
+    background-color: var(--colorprimario);
+}
+
+.imagen{
+    height: 400px;
+    width: 60%;
+}
+
+.programador{
+    width: 250px;
+    height: 250px;
+    margin:70px 0px 0px 100px;
+}
+
+.formulario{
+    margin-right:100px ;
+    text-align: center; 
+}
+
+a{
+    list-style: none;
+    text-decoration: none;
+    
+}
+a:hover{
+    color: red;
+}

@@ -1,0 +1,33 @@
+ .contenedor {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan */
+    justify-content: space-between; /* Distribuye los elementos uniformemente */
+ }
+ .descargar{
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    width: 500px; /* Ancho del contenedor */
+    height: 500px; /* Altura del contenedor */
+    border: 1px solid #ccc; /* Borde del contenedor (opcional) */
+    overflow: hidden; /* Oculta el contenido que sobresale del contenedor */
+  }
+  
+  .descargar img {
+    max-width:70%; /* Ajusta el tamaño máximo de la imagen al70% del contenedor */
+    max-height: 50%; /* Ajusta la altura máxima de la imagen al 50% del contenedor */
+  }
+
+  .case2 {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    width: 500px; /* Ancho del contenedor */
+    height: 500px; /* Altura del contenedor */
+    border: 1px solid #ccc; /* Borde del contenedor (opcional) */
+    overflow: hidden; /* Oculta el contenido que sobresale del contenedor */
+  }
+  .case2 img {
+    max-width: 50%; /* Ajusta el tamaño máximo de la imagen al 50% del contenedor */
+    max-height: 50%; /* Ajusta la altura máxima de la imagen al 50% del contenedor */
+  }
