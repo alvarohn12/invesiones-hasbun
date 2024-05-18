@@ -1,0 +1,235 @@
+ @import url('https://fonts.googleapis.com/css2?family=Genos:ital,wght@0,100..900;1,100..900&display=swap');
+ 
+ /* hoja 1 */
+.image-text-container {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+  }
+  
+  .image {
+    width: 100%;
+    height: 600px;
+    border-radius: 7px;
+  }
+  .logo-container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 130%;
+    width: 100%;
+  }
+  
+  .logo {
+    width: 200px;
+    height: 200px;
+  }
+  .texto-logo{
+    display: block;
+    height: 35%;
+    line-height: 1%;
+    align-items: flex-start;
+  }
+
+  .texto-logo .text1 {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: "genos";
+    font-weight: 400;
+    font-size: 80px;
+    color: white;
+  }
+  .texto-logo .text2 {
+    margin-left: 10px;
+    margin-right: 50px;
+    margin-top: 0;
+    font-family: "genos";
+    font-weight: 400;
+    font-size: 180px;
+    color: white; 
+  }
+ /* hoja 2*/
+  .quienes-somos {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    height: 700px;
+    background-color: #daebda;
+  }
+  .quienes-somos img {
+    position: absolute;
+    left: 100px;
+    top: 70px;
+    height: 80%;   
+  }
+  .quienes-somos .image1 {
+    position: absolute;
+    top: 70px;
+    left: 400px;
+    height: 40%;
+  }
+  .quienes-somos .image2 {
+    position: absolute;
+    top: 370px;
+    left: 400px;
+    height: 260px; 
+    width: 21%;
+  }
+  .texto-container {
+    float: right;
+    width: 46%;
+    left: 500px;
+  }
+  
+  .texto-container h1 {
+    font-size: 30px;
+    margin-top: 100px;
+  }
+  .texto-container p {
+    font-size: 20px;
+    margin-top: 50px;
+  }
+ /* hoja 3 */
+  .modelo-negocio{
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    height: 700px;
+    background-color: #f6fcf6;
+  }
+  .modelo-negocio img {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    height: 100%;   
+  }
+  .modelo-negocio .image3 {
+    position: absolute;
+    top: 70px;
+    left: 400px;
+    width: 21%;
+   
+  }
+
+  .logo-modelo {
+    position: absolute;
+    top: 50%;
+    left: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 130%;
+    width: 100%;
+  }
+  .logo-modelo .logo2 {
+    width: 100px;
+    height: 100px;
+  }
+  .texto-modelo{
+    display: block;
+    margin-right: 70%;
+    margin-left: 10px;
+    height: 102%;
+    line-height: 1%;
+    align-items: flex-start;
+    font-family: "genos";
+  }
+  .texto-modelo .text3 {
+    font-weight: 400;
+    font-size: 40px;
+    color: black;
+  }
+  .texto-modelo .text4 {
+    margin-top: 0;
+    font-weight: 400;
+    font-size: 40px;
+    color: black; 
+  }
+  .texto-nuestro{
+    text-align: center;
+    display: block;
+    line-height: 1%; 
+  }
+  .texto-nuestro .text1 {
+    font-weight: 400;
+    font-size: 40px;
+    margin-right: 50%;
+    color: black;
+  }
+  .texto-nuestro .text2 {
+    margin-top: 0;
+    font-weight: 400;
+    font-size: 55px;
+    margin-right: 10%;
+    letter-spacing: 10px;
+    color: black; 
+  }
+ /* hoja 4*/
+  .nuestro-manifiesto{
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    height: 700px;
+    background-color: white;
+  }
+  .imagen-dede{
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    background-color: #6c706c;
+  }
+  .imagen-dede .dede1{
+    position: absolute;
+    float: left;
+    left: -1%;
+    top: 10%;
+    width: 50%;
+  }
+  .texto-manifiesto{
+    position: relative;
+    text-align: center;
+    display: block;
+    line-height: 1%; 
+    margin-top: 5em;
+  }
+  .texto-manifiesto .text1 {
+    font-weight: 400;
+    font-size: 35px;
+    color: white;
+    margin-left: 70%;
+  }
+  .texto-manifiesto .text2 {
+    font-weight: 400;
+    font-size: 50px;
+    color: white;
+    margin-left: 60%;
+    letter-spacing: 5px;
+  }
+  .textoMV {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    margin-top: 23em;
+  }
+
+  
+  .mision {
+    order: 1; 
+  }
+  
+  .vision {
+    order: 2; 
+  }
+  
+  .volores {
+    order: 3;
+  }
+
+
+      
+  
+  
+ 
